@@ -295,9 +295,15 @@ margin-bottom: 50px;
 .poster{
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
 }
 .poster-item{
 margin: 15px;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+.poster-description{
+    padding: 20px 24px;
 }
 .portfolio-heading{
     font-size: 18px;
@@ -306,6 +312,7 @@ margin: 15px;
     color: var(--pimary-text-color);
 }
 .portfolio-paragraph{
+    margin-top: 4px;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
