@@ -160,10 +160,7 @@ width: 1600px;
 .description-item:not(:last-child){
     margin-right: 30px;
 }
-.description-item{
-    
 
-}
 .heading{
 font-size: 14px;
 letter-spacing: 0.03em;
