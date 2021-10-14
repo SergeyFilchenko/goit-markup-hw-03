@@ -69,24 +69,26 @@ color: var(--background-color);
 .studia{
     color: black;
 }
-.current {
-    color: #2196F3;
-}
+
 .navigate:focus, .navigate:hover{
 color: var(--background-color);
 }
-.nav-item{
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+
+.main-navigate{
+    margin-left: 93px;
 }
 .navigate{
-margin-left: 93px;
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
-
+color: var(--pimary-text-color);
+}
+.current {
+    color: #2196F3;
 }
 .contacts:focus, .contacts:hover{
 color: var(--background-color);
@@ -109,7 +111,7 @@ padding-bottom: 200px;
 background: var(--background2-color);
 }
 .hero-text{
-padding-top: 200px;
+
 margin: auto;
 max-width: 696px;
 font-weight: 900;
@@ -240,10 +242,8 @@ color: var(--secondary-text-color);
 /* Футер */
 
 .footer-section{
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 background: var(--background2-color);
 }
 .footer{
@@ -253,8 +253,11 @@ background: var(--background2-color);
 .studio{
 color: var(--white-color);
 }
-.adress{
+.adress-footer{
     margin-top: 20px;
+}
+.adress{
+    
 font-style: normal;
 font-size: 14px;
 line-height: 1.7;
@@ -270,13 +273,11 @@ color: var(--white-color);
 }
 /* Портфолио */
 
-.portfoio-filter{
-    max-width: 1600px;
-    
-}
+
 .portfolio-title{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .portfolio-item:not(:last-child){
     margin-right: 8px;
@@ -299,7 +300,7 @@ width: 145px;
 height: 38px;
 background: var(--background3-color);
 border-radius: 4px;
-margin-bottom: 50px;
+
 }
 .poster{
     display: flex;
@@ -308,11 +309,14 @@ margin-bottom: 50px;
 }
 .poster-item{
 margin: 15px;
-border: 1px solid #EEEEEE;
+/* border: 1px solid #EEEEEE; */
 box-sizing: border-box;
 }
 .poster-description{
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .portfolio-heading{
     font-size: 18px;
